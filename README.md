@@ -26,11 +26,11 @@ implementation 'com.github.sarnavakonar:TextWriter:v1.0'
 
 Add TextWriter in your xml file:
 
-```
-<com.sarnava.textwriter.TextWriter
+```         
+    <com.kiprotich.japheth.TextAnim
         android:id="@+id/textWriter"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 ```
 
 Initialize in the Activity file:
@@ -53,7 +53,7 @@ textWriter
          .setConfig(TextWriter.Configuration.INTERMEDIATE)
          .setSizeFactor(30f) 
          .setLetterSpacing(25f)
-         .setText("LIVERPOOL FC")
+         .setText("KIPROTICH JAPHETH")
          .setListener(new TextWriter.Listener() {
           	@Override
           	public void WritingFinished() {
@@ -73,7 +73,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ```
 MIT License
 
-Copyright (c) 2020 Sarnava Konar
+Copyright (c) 2020 Kiprotich Japheth
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
