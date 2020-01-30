@@ -19,7 +19,8 @@ allprojects {
 Add this in your app level gradle:
 
 ```
-implementation 'com.github.sarnavakonar:TextWriter:v1.0'
+
+    implementation 'com.github.Keeprawteach:Text-Animation:1.0.0'
 ```
 
 ## Initialization
