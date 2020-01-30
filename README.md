@@ -1,8 +1,8 @@
-# TextWriter
+# Text Animation
 
 :fire: Animate your text like never before :fire:
 
-![gif](https://i.imgur.com/5HYyWBh.gif)
+![gif](https://media.giphy.com/media/VF5ui7uLug7jkvS8gO/giphy.gif)
 
 ## Add dependency
 

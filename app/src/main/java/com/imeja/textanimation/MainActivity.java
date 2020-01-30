@@ -9,15 +9,13 @@ import com.kiprotich.japheth.TextAnim;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextAnim textWriter, twtwo;
+    TextAnim textWriter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textWriter = findViewById(R.id.tw);
-        twtwo = findViewById(R.id.twtwo);
-
         textWriter.setColor(Color.BLACK)
                 .setWidth(2)
                 .setDelay(40)
@@ -36,23 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
                         /*second*/
 
-                        twtwo.setColor(Color.BLACK)
-                                .setWidth(2)
-                                .setDelay(40)
-                                .setSizeFactor(20f)
-                                .setLetterSpacing(20f)
-                                .setConfig(TextAnim.Configuration.INTERMEDIATE)
-                                .setText("JAPHETH")
-                                .setListener(new TextAnim.Listener() {
-                                    @Override
-                                    public void WritingFinished() {
-
-                                        twtwo.setColor(Color.CYAN);
-                                        twtwo.setWidth(8);
-                                        //Toast.makeText(MainActivity.this, "boom", Toast.LENGTH_SHORT).show();
-                                    }
-                                })
-                                .startAnimation();
                     }
                 })
                 .startAnimation();

@@ -11,12 +11,8 @@
     <com.kiprotich.japheth.TextAnim
         android:id="@+id/tw"
         android:layout_width="wrap_content"
-        android:layout_height="105dp" />
+        android:layout_height="wrap_content" />
 
-    <com.kiprotich.japheth.TextAnim
-        android:id="@+id/twtwo"
-        android:layout_width="wrap_content"
-        android:layout_height="105dp" />
 
 
 </LinearLayout>
