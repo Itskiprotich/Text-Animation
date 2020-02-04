@@ -25,7 +25,7 @@ Add this in your app level gradle:
 
 ## Initialization
 
-Add TextWriter in your xml file:
+Add TextAnim in your xml file:
 
 ```         
     <com.kiprotich.japheth.TextAnim
@@ -37,7 +37,7 @@ Add TextWriter in your xml file:
 Initialize in the Activity file:
 
 ```
-TextWriter textWriter;
+TextAnim textWriter;
 
 textWriter = findViewById(R.id.textWriter);
 ```
@@ -51,11 +51,11 @@ textWriter
          .setWidth(12)
          .setDelay(30)
          .setColor(Color.RED)
-         .setConfig(TextWriter.Configuration.INTERMEDIATE)
+         .setConfig(TextAnim.Configuration.INTERMEDIATE)
          .setSizeFactor(30f) 
          .setLetterSpacing(25f)
          .setText("KIPROTICH JAPHETH")
-         .setListener(new TextWriter.Listener() {
+         .setListener(new TextAnim.Listener() {
           	@Override
           	public void WritingFinished() {
 
